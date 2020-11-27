@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BridgeInternationalAcademies.BAL\BridgeInternationalAcademies.BAL.csproj" />
+    <ProjectReference Include="..\BridgeInternationalAcademies.Common\BridgeInternationalAcademies.Common.csproj" />
   </ItemGroup>
 
 

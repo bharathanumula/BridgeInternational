@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeInternationalAcademie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeInternationalAcademies.BAL.Tests", "BridgeInternationalAcademies.BAL.Tests\BridgeInternationalAcademies.BAL.Tests.csproj", "{F287A315-7549-4294-A4D1-AAAA3D0791EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeInternationalAcademies.Common", "BridgeInternationalAcademies.Common\BridgeInternationalAcademies.Common.csproj", "{592A2969-2C62-48B7-9061-8E22A2F6B99B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
