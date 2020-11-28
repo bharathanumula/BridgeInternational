@@ -1,4 +1,5 @@
 ﻿using BridgeInternationalAcademies.Models.BatteryUsage;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
@@ -11,10 +12,22 @@ namespace BridgeInternationalAcademies.Common.JsonConverter
         public async Task<IEnumerable<BatteryUsageDetails>> MapJsonFileToObject(string fileName)
         {
             IEnumerable<BatteryUsageDetails> batteryUsageDetailsList;
-            using (FileStream fs = File.OpenRead(fileName))
+            try
             {
-                batteryUsageDetailsList = await JsonSerializer.DeserializeAsync<IList<BatteryUsageDetails>>(fs);
+                using (FileStream fs = File.OpenRead(fileName))
+                {
+                    batteryUsageDetailsList = await JsonSerializer.DeserializeAsync<IList<BatteryUsageDetails>>(fs);
+                }
             }
+            catch(FileNotFoundException ex)
+            {
+                throw new Exception($"Error while coverting the json: {ex.Message}");
+            }
+            catch(Exception ex)
+            {
+                throw;
+            }
+            
             return batteryUsageDetailsList;
         }
     }

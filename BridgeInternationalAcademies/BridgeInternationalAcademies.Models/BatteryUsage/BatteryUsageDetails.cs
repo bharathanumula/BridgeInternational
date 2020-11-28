@@ -11,7 +11,7 @@ namespace BridgeInternationalAcademies.Models.BatteryUsage
         public int AcademyId { get; set; }
 
         [JsonPropertyName("batteryLevel")]
-        public decimal BatteryLevel { get; set; }
+        public double BatteryLevel { get; set; }
 
         [JsonPropertyName("employeeId")]
         public string EmployeeId { get; set; }

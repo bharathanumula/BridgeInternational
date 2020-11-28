@@ -8,6 +8,6 @@ namespace BridgeInternationalAcademies.Models.BatteryUsage
     {
         public string SerialNumber { get; set; }
 
-        public decimal AvgDailyBatteryUsage { get; set; }
+        public double? AvgDailyBatteryUsage { get; set; }
     }
 }

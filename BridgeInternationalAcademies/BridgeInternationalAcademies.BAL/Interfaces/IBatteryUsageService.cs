@@ -1,4 +1,5 @@
-﻿using BridgeInternationalAcademies.Models.BatteryUsage;
+﻿using BridgeInternationalAcademies.Data.Core.Interfaces;
+using BridgeInternationalAcademies.Models.BatteryUsage;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +9,6 @@ namespace BridgeInternationalAcademies.BAL.Interfaces
 {
     public interface IBatteryUsageService
     {
-        Task<IEnumerable<DailyBatteryUsage>> GetAvgDailyBatteryUsage();
+        Task<IDataResult<IEnumerable<DailyBatteryUsage>>> GetAvgDailyBatteryUsage();
     }
 }

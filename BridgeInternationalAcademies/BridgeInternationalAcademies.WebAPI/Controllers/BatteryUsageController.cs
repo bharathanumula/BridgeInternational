@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BridgeInternationalAcademies.BAL.Interfaces;
+using BridgeInternationalAcademies.Data.Core.Interfaces;
 using BridgeInternationalAcademies.Models.BatteryUsage;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,34 +23,9 @@ namespace BridgeInternationalAcademies.WebAPI.Controllers
 
         // GET: api/BatteryUsage
         [HttpGet]
-        public async Task<IEnumerable<DailyBatteryUsage>> GetAsync()
+        public async Task<IDataResult<IEnumerable<DailyBatteryUsage>>> GetAsync()
         {
             return await _batteryUsageService.GetAvgDailyBatteryUsage();
-        }
-
-        // GET: api/BatteryUsage/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST: api/BatteryUsage
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT: api/BatteryUsage/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
