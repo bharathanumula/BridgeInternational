@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BridgeInternationalAcademies.Common\BridgeInternationalAcademies.Common.csproj" />
+    <ProjectReference Include="..\BridgeInternationalAcademies.Data\BridgeInternationalAcademies.Data.csproj" />
+    <ProjectReference Include="..\BridgeInternationalAcademies.Models\BridgeInternationalAcademies.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+</Project>

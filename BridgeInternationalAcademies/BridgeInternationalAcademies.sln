@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.WebAPI", "BridgeInternationalAcademies.WebAPI\BridgeInternationalAcademies.WebAPI.csproj", "{81919D14-687D-42A8-9D17-D93337C7FD1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{77EC0D8A-E2F0-4CB5-8D74-7F3A44E15F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.Models", "BridgeInternationalAcademies.Models\BridgeInternationalAcademies.Models.csproj", "{78A5185B-AE76-4DE9-88AB-6C5B143C9FC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.Data", "BridgeInternationalAcademies.Data\BridgeInternationalAcademies.Data.csproj", "{5BE16B36-E6D9-4931-A4E5-5AE278390839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.BAL", "BridgeInternationalAcademies.BAL\BridgeInternationalAcademies.BAL.csproj", "{0CBEB9E2-D2E6-4A8A-AE2C-E575109D7F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.WebAPI.Tests", "BridgeInternationalAcademies.WebAPI.Tests\BridgeInternationalAcademies.WebAPI.Tests.csproj", "{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.BAL.Tests", "BridgeInternationalAcademies.BAL.Tests\BridgeInternationalAcademies.BAL.Tests.csproj", "{F287A315-7549-4294-A4D1-AAAA3D0791EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.Common", "BridgeInternationalAcademies.Common\BridgeInternationalAcademies.Common.csproj", "{592A2969-2C62-48B7-9061-8E22A2F6B99B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeInternationalAcademies.Common.Tests", "BridgeInternationalAcademies.Common.Tests\BridgeInternationalAcademies.Common.Tests.csproj", "{51ABD05E-A32F-45D4-8557-048684E6565B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81919D14-687D-42A8-9D17-D93337C7FD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81919D14-687D-42A8-9D17-D93337C7FD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81919D14-687D-42A8-9D17-D93337C7FD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81919D14-687D-42A8-9D17-D93337C7FD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A5185B-AE76-4DE9-88AB-6C5B143C9FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A5185B-AE76-4DE9-88AB-6C5B143C9FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A5185B-AE76-4DE9-88AB-6C5B143C9FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A5185B-AE76-4DE9-88AB-6C5B143C9FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE16B36-E6D9-4931-A4E5-5AE278390839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE16B36-E6D9-4931-A4E5-5AE278390839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE16B36-E6D9-4931-A4E5-5AE278390839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE16B36-E6D9-4931-A4E5-5AE278390839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBEB9E2-D2E6-4A8A-AE2C-E575109D7F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBEB9E2-D2E6-4A8A-AE2C-E575109D7F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBEB9E2-D2E6-4A8A-AE2C-E575109D7F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBEB9E2-D2E6-4A8A-AE2C-E575109D7F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F287A315-7549-4294-A4D1-AAAA3D0791EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592A2969-2C62-48B7-9061-8E22A2F6B99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51ABD05E-A32F-45D4-8557-048684E6565B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ABD05E-A32F-45D4-8557-048684E6565B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ABD05E-A32F-45D4-8557-048684E6565B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ABD05E-A32F-45D4-8557-048684E6565B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{951C5A6E-AA19-4FC2-A86A-AE066CCF26C6} = {77EC0D8A-E2F0-4CB5-8D74-7F3A44E15F26}
+		{F287A315-7549-4294-A4D1-AAAA3D0791EE} = {77EC0D8A-E2F0-4CB5-8D74-7F3A44E15F26}
+		{51ABD05E-A32F-45D4-8557-048684E6565B} = {77EC0D8A-E2F0-4CB5-8D74-7F3A44E15F26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A70DDE1-9B2B-49E4-A166-3D21145EEF00}
+	EndGlobalSection
+EndGlobal
